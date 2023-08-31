@@ -1,0 +1,1024 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&family=Ubuntu&family=Work+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    background-color: rgb(26, 56, 106);
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.leftNav {
+    font-size: 30px;
+}
+
+.leftNav span {
+    color: rgb(255, 180, 51);
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+.navbar .fa-solid{
+    display: none;
+}
+
+nav ul li a:hover {
+    color: rgb(189, 213, 241);
+    font-size: 21px;
+}
+
+.main {
+    width: 100vw;
+    background-color: rgb(13, 14, 80);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    /* background-color: rgb(6, 139, 135); */
+    width: 75vw;
+    height: 70vh;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Myinfo {
+    width: 30vw;
+    padding: 20px;
+    margin-top: 130px;
+    color: white;
+
+}
+
+.firstInfo {
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.secondInfo {
+    font-size: 50px;
+}
+
+.wordColor {
+    color: rgb(218, 162, 253);
+}
+
+.typed-cursor.typed-cursor--blink {
+    font-size: 42px;
+}
+
+#element {
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Myimage {
+    margin-top: 50px;
+}
+
+.Myimage img {
+    height: 70vh;
+    width: auto;
+}
+
+.btnCv button {
+    padding: 10px;
+    margin-top: 45px;
+    border-radius: 20px;
+    color: white;
+    background-color: deepskyblue;
+    cursor: pointer;
+
+}
+
+.btnCv button:hover {
+    color: deepskyblue;
+    background-color: white;
+
+}
+
+hr {
+    width: 90vw;
+    height: 2px;
+    background: rgb(69, 80, 137);
+    margin-top: 100px;
+    border: 0;
+}
+
+.intro {
+    height: auto;
+}
+
+.introInfo {
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    height: auto;
+    margin-top: 130px;
+    justify-content: space-around;
+}
+
+.information {
+    width: 45vw;
+    background-color: rgb(2, 7, 62);
+    color: rgb(234, 224, 224);
+    font-size: 25px;
+    line-height: 50px;
+
+}
+
+.information p{
+    padding: 40px;
+}
+
+.introName {
+    /* background-color: rgb(51, 121, 27); */
+    color: white;
+    width: 25vw;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.introName h1 {
+    margin: 15px;
+    font-size: 7rem;
+    line-height: 160px;
+}
+
+.introInfo button {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.information button{
+    cursor: pointer;
+}
+
+.information button:hover{
+    color: rgb(81, 81, 188);
+    background-color: antiquewhite;
+}
+
+.information button span {
+
+    content: "\2192";
+    cursor: pointer;
+}
+
+.skillsMain {
+    width: 85vw;
+    height: 90vh;
+    margin-top: 130px;
+    background-color: rgb(2, 7, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsMain h1 {
+    font-size: 100px;
+    color: antiquewhite;
+}
+
+.skillInfo {
+    width: 70vw;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: rgb(122, 143, 207);
+}
+
+.firstSkill {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.skillProgress1 {
+    width: 60vw;
+    height: 20px;
+    margin-top: 10px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skillPer1 {
+    width: 55vw;
+    height: 20px;
+    background-color: rgb(112, 174, 254);
+    border-radius: 10px;
+}
+
+.skillPercent {
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.skillPer2 {
+    width: 50vw;
+    height: 20px;
+    background-color: rgb(112, 174, 254);
+    border-radius: 10px;
+}
+
+.skillPer3 {
+    width: 30vw;
+    height: 20px;
+    background-color: rgb(112, 174, 254);
+    border-radius: 10px;
+}
+
+
+.skillPer4 {
+    width: 40vw;
+    height: 20px;
+    background-color: rgb(112, 174, 254);
+    border-radius: 10px;
+}
+
+.projectMain {
+    width: 85vw;
+    height: 100vh;
+    background-color: rgb(2, 7, 62);
+    margin-top: 80px;
+}
+
+.projectMain h1 {
+    font-size: 60px;
+    padding: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+.projectOne {
+    /* background-color: rgb(2, 7, 62); */
+    width: 80vw;
+    height: 80vh;
+    margin: 0 30px;
+    display: flex;
+    color: rgb(183, 177, 177);
+}
+
+.projectOne .projectLineMain {
+    width: 10vw;
+    height: 60vh;
+    /* background-color: white; */
+    margin: 15px;
+}
+
+.projectLine {
+    width: 2px;
+    background-color: grey;
+}
+
+.oneLine {
+    width: 21vh;
+    height: 1px;
+    background-color: grey;
+}
+
+.twoLine {
+    width: 21vh;
+    height: 1px;
+    margin-top: 185px;
+    background-color: grey;
+}
+
+.threeLine {
+    width: 21vh;
+    height: 1px;
+    margin-top: 180px;
+    background-color: grey;
+}
+
+.onePro {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 64vh;
+    margin-left: 0;
+}
+
+.onePro .headPro {
+    font-size: 24px;
+    text-decoration: underline;
+    color: bisque;
+    padding: 5px 0;
+}
+
+.onePro .headPro a{
+    color: rgb(188, 199, 251);
+    color: bisque;
+}
+
+.onePro .headPro a:hover {
+    font-size: 25px;
+    color: rgb(205, 225, 255);
+}
+
+/* ------------------------------------Sevices---------------------------------- */
+
+.services {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(13, 14, 80);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.serviceMain {
+    height: 80vh;
+    background-color: rgb(2, 7, 62);
+}
+
+.serviceMain h1 {
+    font-size: 60px;
+    color: white;
+    padding: 20px 40px;
+}
+
+.serviceContainer {
+    width: 85vw;
+    height: 70vh;
+    background-color: rgb(2, 7, 62);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstService {
+    width: 23vw;
+    height: 60vh;
+    background-color: rgba(25, 35, 113, 0.4);
+    border-radius: 10px;
+
+}
+
+.firstService:hover{
+    transform: scale(1.07);
+    background-color: rgba(103, 117, 219, 0.4);
+    z-index: 1;
+}
+
+.serviceContainer .heading {
+    /* background-color: aliceblue; */
+    font-size: 55px;
+    text-align: center;
+    padding: 70px 40px 0px 40px;
+    height: 150px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.serviceContainer .subHeading {
+    /* background-color: aqua; */
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(250, 242, 25);
+}
+
+.serviceContainer .description {
+    font-size: 17px;
+    padding: 10px 40px;
+    color: gray;
+    text-align: center;
+}
+
+.secondService {
+    width: 23vw;
+    height: 60vh;
+    background-color: rgba(25, 35, 113, 0.4);
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.secondService:hover{
+    transform: scale(1.07);
+    background-color: rgba(103, 117, 219, 0.4);
+}
+
+.thirdService {
+    width: 23vw;
+    height: 60vh;
+    background-color: rgba(25, 35, 113, 0.4);
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.thirdService:hover{
+    transform: scale(1.07);
+    background-color: rgba(103, 117, 219, 0.4);
+}
+
+/* ---------------------------------Footer---------------------------------- */
+
+.footer1 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(13, 14, 80);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.footerOne {
+    display: flex;
+    height: auto;
+    margin-top: 40px;
+    flex-direction: column;
+    background-color: rgb(5, 1, 40);
+    align-items: end;
+}
+
+.footerMain {
+    width: 100vw;
+    height: 80vh;
+    /* background-color: rgb(13, 14, 80); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.footerLeft {
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(1, 1, 63);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footerRight {
+    width: 40vw;
+    height: 70vh;
+    color: white;
+    background-color: rgb(1, 1, 63);
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeft h2 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.footerLeft h2 span {
+    color: rgb(255, 180, 51);
+}
+
+.footerLeft .phoneNo {
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+.footerLeft .mail {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.footerLeft .mail a {
+    color: white;
+}
+
+.footerLeft .mail a:hover {
+    color: rgb(150, 205, 250);
+}
+
+.footerLeft .socialIcon {
+    padding: 0 35px;
+    margin-top: 20px;
+}
+
+.fa-brands.fa-linkedin {
+    font-size: 24px;
+    color: rgb(10, 102, 194);
+}
+
+.fa-brands.fa-github {
+    font-size: 24px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.fa-brands.fa-youtube {
+    font-size: 24px;
+    margin-left: 10px;
+    color: rgb(205, 32, 31);
+}
+
+.footerLeftBtn{
+    margin: 30px;
+}
+.btnSocial {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: deepskyblue;
+    width: 10vw;
+    cursor: pointer;
+}
+
+.footerLeft a {
+    width: fit-content;
+}
+
+.btnSocial:hover {
+    color: deepskyblue;
+    background-color: white;
+}
+
+.footerRight h2 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.footerRight form {
+    width: 100%;
+
+}
+
+form input,
+form textarea {
+    width: 90%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 15px;
+    background-color: rgb(209, 207, 207);
+    color: black;
+    border-radius: 5px;
+}
+
+.btnContact {
+    padding: 10px;
+    margin: 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: deepskyblue;
+    width: 10vw;
+    cursor: pointer;
+}
+
+#msg{
+    margin: 0 12px;
+    color: rgb(3, 173, 57);
+}
+
+.copyright {
+    width: 100vw;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    color: gray;
+
+}
+
+/* -------------------------------------Media Query------------------------------------------ */
+
+@media only screen and (max-width: 400px){
+    .serviceContainer{
+        width: 100%;
+    }
+
+    .firstService .heading{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    body,
+    html {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        /* overflow-x: hidden; */
+    }
+
+    .navbar {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        z-index: 2;
+        height: auto;
+    }
+
+    .leftNav{
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        margin: 0px 10px;
+        font-size: 25px;
+    }
+
+    nav ul li{
+        margin: 20px;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: -200px;
+        background-color: rgb(255, 180, 51);
+        width: 200px;
+        height: 100vh;
+        display: block;
+        padding-top: 50px;
+        transition: right 0.5s;
+        z-index: 3;
+
+    }
+
+    .fa-xmark{
+        position: absolute;
+        top: 25px;
+        left: 30px;
+    }
+
+    .navbar .fa-solid{
+        display: block;
+        font-size: 30px;
+    }
+
+    .info {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Myinfo {
+        width: 100vw;
+        padding: 0 60px;
+        margin-top: 55px;
+        color: white;
+    }
+
+    .secondInfo {
+        font-size: 55px;
+    }
+
+    #element {
+        font-size: 30px;
+    }
+
+    .Myimage {
+        margin-top: 25px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Myimage img {
+        height: auto;
+        width: 75vw;
+    }
+
+    hr{
+        margin-top: 100px;
+    }
+
+    .introInfo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+        justify-content: start;
+    }
+
+    .introName{
+        width: 85vw;
+        padding: 20px 0;
+    }
+
+    .intro {
+        height: auto;
+    }
+    
+    .introName h1 {
+        margin: 15px;
+        font-size: 5rem;
+        line-height: 108px;
+    }
+
+    .information {
+        width: 85vw;
+        background-color: rgb(2, 7, 62);
+        color: rgb(234, 224, 224);
+        font-size: 16px;
+        line-height: 50px;
+        height: auto;
+    }
+
+    .information p{
+        padding: 50px;
+    }
+
+    .skillsMain{
+        height: auto;
+    }
+
+    .skillsMain h1 {
+        font-size: 75px;
+        margin-top: 35px;
+    }
+
+    .skillInfo{
+        align-items: center;
+        margin-left: 0px;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+
+    .firstSkill{
+        font-size: 15px;
+    }
+
+    .skillProgress1{
+        width: 60vw;
+    }
+
+    .skillPercent{
+        font-size: 12px;
+    }
+
+    .projectMain{
+        height: auto;
+    }
+
+
+    .projectMain h1{
+        font-size: 50px;
+        padding: 50px 30px 0px 30px;
+    }
+
+    .projectOne{
+        height: auto;
+        margin: 0 10px;
+    }
+
+    .projectOne .projectLineMain{
+        margin: 55px 15px;
+        display: none;
+    }
+
+    .oneLine{
+        width: 10vw;
+    }
+
+    .twoLine{
+        width: 10vw;
+    }
+
+    .threeLine{
+        width: 10vw;
+    }
+
+    .onePro {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        margin-left: 0;
+        width: 80vw;
+    }
+
+    .one{
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .services{
+        width: 100vh;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .serviceMain{
+        height: auto;
+    }
+
+    .serviceMain h1{
+        font-size: 50px;
+    }
+
+    .serviceContainer{
+        flex-direction: column;
+        justify-content: start;
+        height: auto;
+    }
+
+    .firstService{
+        width: 75vw;
+        height: auto;
+    }
+
+    .secondService {
+        width: 75vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .thirdService{
+        width: 75vw;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+
+    .serviceContainer .heading{
+        font-size: 45px;
+        height: 120px;
+    }
+
+    .serviceContainer .description{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .footer1{
+        height: auto;
+    }
+
+    .footerOne{
+        height: auto;
+    }
+
+    .footerMain{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerLeft{
+        width: 95vw;
+        height: auto;
+    }
+
+    .footerLeft .mail a{
+        font-size: 15px;
+    }
+
+    .btnSocial{
+        width: 35vw;
+    }
+
+    .footerRight{
+        width: 95vw;
+        height: auto;
+    }
+
+    form input, form textarea{
+        width: 86%;
+    }
+
+    .btnContact{
+        width: 25vw;
+    }
+
+    .copyright{
+        padding: 16px 0;
+        font-size: 16px;
+    }
+}
+
+/* --------------------------------------Media Query 2------------------------- */
+
+@media only screen and (min-width: 920px ) and ( max-width: 1200px){
+
+    nav ul li a{
+        margin: 0 12px;
+    }
+
+    .projectOne .projectLineMain{
+        display: none;
+    }
+
+    .firstService{
+        width: 24vw;
+    }
+
+    .secondService {
+        width: 24vw;
+    }
+
+    .thirdService{
+        width: 24vw;
+    
+    }
+
+
+    .serviceContainer .heading{
+        font-size: 35px;
+        height: 120px;
+    }
+
+    .serviceContainer .description{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+}
+
+/* ---------------------------------------Media ------------------ */
+
+@media only screen and (min-width: 1201px ) and ( max-width: 1400px){
+
+    .projectOne .projectLineMain{
+        display: none;
+    }
+
+    .firstService{
+        width: 24vw;
+    }
+
+    .secondService {
+        width: 24vw;
+    }
+
+    .thirdService{
+        width: 24vw;
+    
+    }
+
+
+    .serviceContainer .heading{
+        font-size: 45px;
+        height: 120px;
+    }
+
+    .serviceContainer .description{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+
+}
